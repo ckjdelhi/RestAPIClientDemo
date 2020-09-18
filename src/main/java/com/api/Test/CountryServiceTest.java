@@ -11,7 +11,7 @@ public class CountryServiceTest {
 		Scanner sc=new Scanner(System.in);
 		CountryApiClient apiClient= new CountryApiClient();
 		while(!exit.equalsIgnoreCase("n")) {
-			System.out.println("Enter CAPITAL CITY Name:");
+			System.out.println("Enter any CAPITAL CITY Name:");
 			String cityName=sc.nextLine();
 			System.out.println("Enter expected Country name:");
 			String expectedCountryName= sc.nextLine();
